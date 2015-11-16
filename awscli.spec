@@ -17,7 +17,7 @@ BuildArch: noarch
 This package provides a unified command line interface to Amazon Web Services.
 
 %prep
-curl -s -o /data/rpmbuild/SORUCES/%{package}-${version}.tar.gz https://pypi.python.org/packages/source/a/%{name}/%{name}-%{version}.tar.gz
+curl -s -o /data/rpmbuild/SOURCES/%{package}-${version}.tar.gz https://pypi.python.org/packages/source/a/%{name}/%{name}-%{version}.tar.gz
 
 %install
 rm -Rf %{buildroot}
