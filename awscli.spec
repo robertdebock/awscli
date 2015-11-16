@@ -19,10 +19,6 @@ This package provides a unified command line interface to Amazon Web Services.
 %prep
 wget https://pypi.python.org/packages/source/a/%{name}/%{name}-%{version}.tar.gz
 
-%setup -q -n %{name}-%{version}-src
-
-%build
-
 TODO: Below this line.
 %install
 rm -Rf %{buildroot}
