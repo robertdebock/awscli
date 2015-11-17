@@ -113,6 +113,7 @@ main() {
   fi
   chown root:root /data/${package}.spec
   yum -y groupinstall "Development Tools"
+  yum -y install python-pip
   rpmbuild --define "_topdir /data/rpmbuild" -bb /data/${package}.spec
 }
 
