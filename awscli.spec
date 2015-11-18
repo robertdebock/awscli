@@ -10,6 +10,15 @@ Source: %{name}-%{version}.tar.gz
 BuildRoot: %{_tmppath}/%{name}-%{version}-build
 BuildRequires: epel-release
 BuildRequires: python-pip
+BuildRequires: python
+BuildRequires: python-docutils
+BuildRequires: python-jmespath
+BuildRequires: python-pyasn1
+BuildRequires: python-rsa
+BuildRequires: python-botocore
+BuildRequires: python-colorama
+BuildRequires: python-dateutil
+BuildRequires: python-six
 Requires: python
 Requires: python-docutils
 Requires: python-jmespath
