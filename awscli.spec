@@ -6,28 +6,9 @@ Group: Productivity/Networking/Web/Servers
 License: Apache Software License.
 Url: https://pypi.python.org/pypi/awscli
 Source: %{name}-%{version}.tar.gz
-
 BuildRoot: %{_tmppath}/%{name}-%{version}-build
-BuildRequires: epel-release
-BuildRequires: python-pip
-BuildRequires: python
-BuildRequires: python-docutils
-BuildRequires: python-jmespath
-BuildRequires: python-pyasn1
-BuildRequires: python-rsa
-BuildRequires: python-botocore
-BuildRequires: python-colorama
-BuildRequires: python-dateutil
-BuildRequires: python-six
-Requires: python
-Requires: python-docutils
-Requires: python-jmespath
-Requires: python-pyasn1
-Requires: python-rsa
-Requires: python-botocore
-Requires: python-colorama
-Requires: python-dateutil
-Requires: python-six
+BuildRequires: epel-release, python-pip, python, python-docutils, python-jmespath, python-pyasn1, python-rsa, python-botocore, python-colorama, python-dateutil, python-six
+Requires: python, python-docutils, python-jmespath, python-pyasn1, python-rsa, python-botocore, python-colorama, python-dateutil, python-six
 BuildArch: noarch
 
 %description
