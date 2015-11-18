@@ -111,9 +111,9 @@ main() {
     echo
     exit 3
   fi
+  curl -s -o /data/rpmbuild/SOURCES/%{package}-${version}.tar.gz https://pypi.python.org/packages/source/a/%{name}/%{name}-%{version}.tar.gz
   chown root:root /data/${package}.spec
   yum -y groupinstall "Development Tools"
-  curl -s -o /data/rpmbuild/SOURCES/%{package}-${version}.tar.gz https://pypi.python.org/packages/source/a/%{name}/%{name}-%{version}.tar.gz
   #yum -y install python-pip python-docutils python-jmespath python-pyasn1 python-rsa python-botocore python-colorama python-dateutil python-six
   rpmbuild --define "_topdir /data/rpmbuild" -bb /data/${package}.spec
 }
