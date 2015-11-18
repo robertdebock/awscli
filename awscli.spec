@@ -7,7 +7,7 @@ License: Apache Software License.
 Url: https://pypi.python.org/pypi/awscli
 Source: %{name}-%{version}.tar.gz
 BuildRoot: %{_tmppath}/%{name}-%{version}-build
-BuildRequires: epel-release, python-pip, python, python-docutils, python-jmespath, python-pyasn1, python-rsa, python-botocore, python-colorama, python-dateutil, python-six
+BuildRequires: python
 Requires: python, python-docutils, python-jmespath, python-pyasn1, python-rsa, python-botocore, python-colorama, python-dateutil, python-six
 BuildArch: noarch
 
