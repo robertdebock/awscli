@@ -48,16 +48,6 @@ rm -rf %{buildroot}
 /bin/pyrsa-priv2pub
 /bin/pyrsa-sign
 /bin/pyrsa-verify
-/bin/rst2html.py
-/bin/rst2latex.py
-/bin/rst2man.py
-/bin/rst2odt.py
-/bin/rst2odt_prepstyles.py
-/bin/rst2pseudoxml.py
-/bin/rst2s5.py
-/bin/rst2xetex.py
-/bin/rst2xml.py
-/bin/rstpep2html.py
 /lib/python2.7/site-packages/awscli-1.9.7-py2.7.egg-info/PKG-INFO
 /lib/python2.7/site-packages/awscli-1.9.7-py2.7.egg-info/SOURCES.txt
 /lib/python2.7/site-packages/awscli-1.9.7-py2.7.egg-info/dependency_links.txt
