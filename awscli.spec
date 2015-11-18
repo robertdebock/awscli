@@ -11,6 +11,14 @@ BuildRoot: %{_tmppath}/%{name}-%{version}-build
 BuildRequires: epel-release
 BuildRequires: python-pip
 Requires: python
+Requires: python-docutils
+Requires: python-jmespath
+Requires: python-pyasn1
+Requires: python-rsa
+Requires: python-botocore
+Requires: python-colorama
+Requires: python-dateutil
+Requires: python-six
 BuildArch: noarch
 
 %description
